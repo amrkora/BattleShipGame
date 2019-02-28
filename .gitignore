@@ -1,0 +1,6 @@
+*.class
+
+# ignore an entire directory
+/target/
+
+

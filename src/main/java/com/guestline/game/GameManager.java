@@ -20,7 +20,7 @@ public class GameManager {
 	public static void main(String[] args) {
 
 		GameManager game = new GameManager();
-		logger.info("Game has started.. ");
+		System.out.println("Game has started.. ");
 		game.startGame();
 
 	}
@@ -54,7 +54,7 @@ public class GameManager {
 
 		} while (exitCondition);
 
-		logger.info("Well Done, Game has finished ... ");
+		System.out.println("Well Done, Game has finished ... ");
 	}
 
 	public void managePlayer(Player player) {
@@ -81,7 +81,7 @@ public class GameManager {
 		} else {
 			gridSquare.setMiss(true);
 		}
-		logger.info("Attack " + (result ? "hits" : "miss"));
+		System.out.println("Attack " + (result ? "hits" : "miss"));
 		return result;
 	}
 
@@ -198,10 +198,10 @@ public class GameManager {
 	}
 
 	private void printGameStatistics(Player player1, Player player2) {
-		logger.info("Sink=" + player2.getSinkShipsNumber() + " , Hits=" + player1.getHits() + " , Miss="
+		System.out.println("Sink=" + player2.getSinkShipsNumber() + " , Hits=" + player1.getHits() + " , Miss="
 				+ player1.getMisses());
 
-		logger.info("No of Plays:" + numberOfGamePlayAttacks);
+		System.out.println("No of Plays:" + numberOfGamePlayAttacks);
 	}
 
 }

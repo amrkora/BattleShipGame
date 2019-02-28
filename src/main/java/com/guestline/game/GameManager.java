@@ -54,11 +54,10 @@ public class GameManager {
 
 		} while (exitCondition);
 
-
 		logger.info("Well Done, Game has finished ... ");
 	}
 
-	private void managePlayer(Player player) {
+	public void managePlayer(Player player) {
 		playerManager.createShips(player);
 		playerManager.postionShips(player);
 	}

@@ -5,7 +5,11 @@
 
 **Install JDK 8 or higher**
 
+**Configure JDK Home for windows**
+
 **Install Maven**
+
+**Configure Maben Home for windows**
 
 **Download the project**
 

@@ -54,7 +54,7 @@ public class GameManager {
 
 		} while (exitCondition);
 
-		printGameStatistics(player1, player2);
+
 		logger.info("Well Done, Game has finished ... ");
 	}
 

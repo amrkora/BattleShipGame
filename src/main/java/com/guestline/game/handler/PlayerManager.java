@@ -43,8 +43,8 @@ public class PlayerManager {
 				try {
 					ship.setPosition(player, randomPosition, coordinates);
 					isValidPostion = true;
-					logger.info(player.getName() + "'s " + ship.getName() + " is positioned " + randomPosition
-							+ " at x=" + coordinates.getX() + ",y=" + coordinates.getY());
+//					logger.info(player.getName() + "'s " + ship.getName() + " is positioned " + randomPosition
+//							+ " at x=" + coordinates.getX() + ",y=" + coordinates.getY());
 				} catch (Exception e) {
 					if (!(e instanceof IllegalArgumentException)) {
 						throw e;

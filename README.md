@@ -1,5 +1,5 @@
 # BattleShipGame
-** How to run **
+** How to run                                                                        **
 Instal JDK 8 or hight
 Intall Maven
 download the project

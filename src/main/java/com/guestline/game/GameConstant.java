@@ -5,6 +5,7 @@ public class GameConstant {
 		HORIZONTAL, VERTICAL
 	}
 
+	
 	public static final int OCCEAN_GRID_SQUARES_LETTERS = 10;
 	public static final int OCCEAN_GRID_SQUARES_NUMBERS = 10;
 
